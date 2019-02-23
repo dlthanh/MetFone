@@ -1,0 +1,94 @@
+/**
+ * Font Family
+ */
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/**
+ * Function
+ */
+.cwm-img > img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.cwm-title {
+    margin-top: 50px;
+}
+.bold {
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
+.bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+.cwm-text {
+    padding: 0 15px;
+}
+.cwm-text > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    font-family: NotoSerif, sans-serif;
+}
+.cwm-caption {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #626262;
+    padding: 0 15px;
+}
+.cwm-credit > img {
+    width: 100%;
+}
+
+/**
+ * Main Css
+ */
+.cw-cover {
+}
+.cw-cover > img {
+    width: 100%;
+}
+.cwm-sapo {
+    margin-top: 50px;
+}
+.cwm-sapo > img {
+    width: 100%;
+}
+.cwm-credit {
+    margin-top: 60px;
+    padding-left: 15px;
+    border-left: solid 5px #bb8964;
+    font-family: 'NotoSerif', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+.cwm-credit p {
+    margin-bottom: 10px;
+}

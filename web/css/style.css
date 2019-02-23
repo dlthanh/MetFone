@@ -1,0 +1,132 @@
+/**
+ * Font Family
+ */
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/NotoSerif-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/**
+ * Function
+ */
+.w960 {
+    width: 980px;
+    margin: 0 auto;
+}
+.w660 {
+    width: 660px;
+    margin: 0 auto;
+}
+.w450 {
+    width: 450px;
+    margin: 0 auto;
+}
+.cwm-img > img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.cwm-text > p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: NotoSerif, sans-serif;
+    margin-bottom: 30px;
+}
+.bold {
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
+.bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+.cwn-caption {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #626262;
+}
+.cwm-img-left {
+    float: left;
+    margin-left: -160px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.cwm-img-right {
+    float: right;
+    margin-right: -160px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.cwm-title {
+    margin-top: 50px;
+}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.cwm-img-full img {
+    width: 100%;
+}
+/**
+ * Main Css
+ */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cw-cover {
+    width: 100%;
+}
+.cw-cover > img {
+    width: 100%;
+}
+.cwm-sapo {
+    margin-top: -40px;
+}
+.cwm-sapo > img {
+    margin-bottom: 0;
+}
+.cwm-img img {
+    width: 100%;
+}
+.cwm-img-left img {
+    width: 100%;
+}
+.cwm-credit {
+    margin-top: 60px;
+    padding-left: 15px;
+    border-left: solid 5px #bb8964;
+    font-family: 'NotoSerif', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.cwm-credit p {
+    margin-bottom: 10px;
+}
